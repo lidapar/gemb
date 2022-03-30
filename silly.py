@@ -7,7 +7,7 @@ import time
 async def main():
     browser = await launch(options={'args': ['--no-sandbox'], 'devtools':True, 'headless':True})
     page = await browser.newPage()
-    await page.goto('https://codehs.com/sandbox/id/python-3-1N5V27')
+    await page.goto('https://codehs.com/sandbox/id/python-3-jLlrsf')
     await page.screenshot({'path': './code.png'})
     time.sleep(2)
     # await page.screenshot({'path': './code.png'})
