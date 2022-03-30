@@ -10,7 +10,7 @@ const puppeteer = require('puppeteer');
   const page = await browser.newPage();
   await page.setUserAgent(userAgent.toString())
   await page.goto('https://codehs.com/sandbox/id/python-3-FuF5AE')
-  await page.screenshot({'path': './codejs.png'})
+//   await page.screenshot({'path': './codejs.png'})
   await page.waitForTimeout(2000)
 //   # await page.screenshot({'path': './code.png'})
  for(x=0;x<10000;x++) {
