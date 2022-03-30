@@ -20,11 +20,11 @@ const puppeteer = require('puppeteer');
     await page.keyboard.press('KeyH')
     await page.waitForTimeout(10000)
     await page.keyboard.press('KeyH')
-    await page.screenshot({'path': "r1.png"})
+//     await page.screenshot({'path': "r1.png"})
     await page.waitForTimeout(10000)
     await page.keyboard.press('KeyH')
-    await page.waitForTimeout(70000)
-    await page.mouse.click(580,125,{'button': 'left'})
+    await page.waitForTimeout(10000)
+//     await page.mouse.click(580,125,{'button': 'left'})
     await page.screenshot({'path': "resjs.png"})
  }
   await browser.close();
